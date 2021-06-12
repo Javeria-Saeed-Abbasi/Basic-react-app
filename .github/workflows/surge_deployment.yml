@@ -36,7 +36,7 @@ jobs:
           cmd: install # will run `yarn install` command
           
       - name: Build React App
-        run: yarn build
+        run: sudo yarn build
         env: 
             CI: false
         
